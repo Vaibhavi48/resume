@@ -1,0 +1,12 @@
+#l/bm/bash
+echo "Enter a number:"
+read num
+f=1
+if [$num -le 0]
+then
+echo "Factorial of number not posssible for negative number"
+else
+for(i=1;i<num;i++) do
+f=$((f*i))
+done
+echo "Factorial of number is $factorial"
